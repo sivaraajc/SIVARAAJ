@@ -7,22 +7,24 @@
   "Header.cvBtn": "Resume",
   "Header.cvName": "SIVA_CV.pdf",
   "Banner.Pretitle": "Hello! I am",
-  "Banner.Description": "I have <span class='underline'>2 years of experience</span> in developing dynamic, responsive, and user-friendly web applications. My expertise lies in creating efficient systems, intuitive user interfaces, and innovative solutions to enhance web experiences. I am passionate about writing clean, reusable, and scalable code in <span class='underline'>Angular</span>, adhering to best practices and modern development standards to deliver high-quality front-end solutions. As a Full Stack Developer, I specialize in developing web applications using Angular, Spring Boot, and MySQL, ensuring seamless integration between front-end and back-end technologies to create efficient and dynamic user experiences.",
+  "Banner.Description": "I have <span class='underline'>3+ years of professional experience</span> developing dynamic, responsive, and user-friendly web applications. I specialize in building efficient systems, intuitive user interfaces, and scalable solutions that enhance user experience. I am passionate about writing clean, reusable, and maintainable code in <span class='underline'>Angular</span>, following modern development standards and best practices. As a Full Stack Developer, I have experience working with Angular, Java Spring Boot, and MySQL, and I am currently developing applications using Angular, Python, and MongoDB to deliver robust and high-performing web solutions.",
   "Banner.ActionBtn": "Say Hi",
   "AboutMe.Title": "About Me",
-  "AboutMe.Paragraphs": [
-    "In <span class='underline'>2 years of experience</span>  I have taken on various roles, including <span class='underline'>Frontend Development</span> and including <span class='underline'>Backend Development</span>, with a strong focus on Angular development. I am passionate about leveraging my expertise to create innovative solutions that address real-world problems.",
-    "My skill set includes implementing system enhancements, optimizing Angular applications, standardizing UI/UX patterns, and proposing and executing ideas that bring tangible value to the projects I contribute to.",
-    "I also program things for my personal use, whether for hobby or utility.",
-    "Some of the technologies I work with include... (Feel free to complete this section with relevant technologies!):",
-    "Additionally, I have experience in back-end development using Java Spring Boot to design robust, scalable, and secure REST APIs, enabling seamless communication between the client and server."
-  ],
+ "AboutMe.Paragraphs": [
+    "With <span class='underline'>over 3 years of experience</span>, I have worked across both <span class='underline'>frontend</span> and <span class='underline'>backend development</span>, with a strong focus on Angular-based applications. I enjoy transforming complex requirements into intuitive and reliable solutions that solve real-world problems.",
+    "My expertise includes implementing system enhancements, optimizing Angular applications for performance and scalability, standardizing UI/UX patterns, and proposing and executing ideas that deliver measurable value to the products I contribute to.",
+    "I actively work on personal and utility-based projects to explore new technologies, improve development workflows, and continuously strengthen my technical skill set.",  
+    "Technologies I regularly work with include Angular, TypeScript, JavaScript, Java Spring Boot, Python, MySQL, MongoDB, RESTful APIs, HTML, CSS, and Git.",
+    "I also have solid experience in backend development using Java Spring Boot to design secure, scalable, and high-performance REST APIs, enabling seamless communication between frontend applications and backend services."
+  ]
+,
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
       "Tab": "Oasys",
+      "Company": "Oasys Cybernetics Pvt Ltd.",
       "Title": "Software Developer",
-      "Date": "Aug 2023 - Present",
+      "Date": "Aug 2023 - Apr 2025",
       "Description": [
         "Driving technical decisions to ensure efficient frontend development using Angular.",
         "Contributing to the hiring process for frontend development talent.",
@@ -37,7 +39,26 @@
         "Implementing role-based access control and authentication mechanisms to secure back-end systems.",
         "Debugging, monitoring, and improving back-end systems to ensure reliable application performance."
       ]
-    }
+    },
+    {
+    "Tab": "I-Bytes",
+    "Company": "I-Bytes Bits and Bots Pvt Ltd – Oil and Gas Software Solutions",
+    "Title": "Software Developer",
+    "Date": "Apr 2025 - Present",
+  "Description": [
+  "Leading Angular frontend architecture by defining scalable coding standards and best practices across the application.",
+  "Designing and developing highly reusable, configurable, and modular Angular components to reduce code duplication and improve maintainability.",
+  "Establishing a clean and consistent project folder structure aligned with Angular style guidelines for better scalability and team collaboration.",
+  "Enforcing code quality through ESLint, Prettier, and Angular linting rules to maintain consistent formatting and prevent common bugs.",
+  "Refactoring legacy code to improve performance, readability, and long-term maintainability.",
+  "Implementing RxJS best practices for efficient state management and optimized API handling.",
+  "Collaborating closely with stakeholders, product owners, and backend teams to translate business requirements into technical solutions.",
+  "Building and integrating scalable REST APIs using Python FastAPI to support frontend functionality.",
+  "Handling secure frontend-to-backend communication by implementing proper authentication, authorization, and API error handling.",
+  "Improving backend reliability and performance through API optimization, logging, monitoring, and efficient database interactions."
+]
+
+  } 
   ],
   "FeatureProjects.Title": "My Projects",
   "FeatureProjects.Label": "",
