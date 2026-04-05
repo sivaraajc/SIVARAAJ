@@ -20,6 +20,25 @@
 ,
   "Experience.Title": "Experience",
   "Experience.Jobs": [
+      {
+    "Tab": "I-Bytes",
+    "Company": "I-Bytes Bits and Bots Pvt Ltd – Oil and Gas Software Solutions",
+    "Title": "Software Developer",
+    "Date": "Apr 2025 - Present",
+  "Description": [
+  "Leading Angular frontend architecture by defining scalable coding standards and best practices across the application.",
+  "Designing and developing highly reusable, configurable, and modular Angular components to reduce code duplication and improve maintainability.",
+  "Establishing a clean and consistent project folder structure aligned with Angular style guidelines for better scalability and team collaboration.",
+  "Enforcing code quality through ESLint, Prettier, and Angular linting rules to maintain consistent formatting and prevent common bugs.",
+  "Refactoring legacy code to improve performance, readability, and long-term maintainability.",
+  "Implementing RxJS best practices for efficient state management and optimized API handling.",
+  "Collaborating closely with stakeholders, product owners, and backend teams to translate business requirements into technical solutions.",
+  "Building and integrating scalable REST APIs using Python FastAPI to support frontend functionality.",
+  "Handling secure frontend-to-backend communication by implementing proper authentication, authorization, and API error handling.",
+  "Improving backend reliability and performance through API optimization, logging, monitoring, and efficient database interactions."
+]
+
+  } ,
     {
       "Tab": "Oasys",
       "Company": "Oasys Cybernetics Pvt Ltd.",
@@ -39,26 +58,8 @@
         "Implementing role-based access control and authentication mechanisms to secure back-end systems.",
         "Debugging, monitoring, and improving back-end systems to ensure reliable application performance."
       ]
-    },
-    {
-    "Tab": "I-Bytes",
-    "Company": "I-Bytes Bits and Bots Pvt Ltd – Oil and Gas Software Solutions",
-    "Title": "Software Developer",
-    "Date": "Apr 2025 - Present",
-  "Description": [
-  "Leading Angular frontend architecture by defining scalable coding standards and best practices across the application.",
-  "Designing and developing highly reusable, configurable, and modular Angular components to reduce code duplication and improve maintainability.",
-  "Establishing a clean and consistent project folder structure aligned with Angular style guidelines for better scalability and team collaboration.",
-  "Enforcing code quality through ESLint, Prettier, and Angular linting rules to maintain consistent formatting and prevent common bugs.",
-  "Refactoring legacy code to improve performance, readability, and long-term maintainability.",
-  "Implementing RxJS best practices for efficient state management and optimized API handling.",
-  "Collaborating closely with stakeholders, product owners, and backend teams to translate business requirements into technical solutions.",
-  "Building and integrating scalable REST APIs using Python FastAPI to support frontend functionality.",
-  "Handling secure frontend-to-backend communication by implementing proper authentication, authorization, and API error handling.",
-  "Improving backend reliability and performance through API optimization, logging, monitoring, and efficient database interactions."
-]
-
-  } 
+    }
+  
   ],
   "FeatureProjects.Title": "My Projects",
   "FeatureProjects.Label": "",
