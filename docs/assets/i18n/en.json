@@ -20,7 +20,7 @@
 ,
   "Experience.Title": "Experience",
   "Experience.Jobs": [
-     {
+      {
     "Tab": "I-Bytes",
     "Company": "I-Bytes Bits and Bots Pvt Ltd – Oil and Gas Software Solutions",
     "Title": "Software Developer",
@@ -59,7 +59,7 @@
         "Debugging, monitoring, and improving back-end systems to ensure reliable application performance."
       ]
     }
-   
+  
   ],
   "FeatureProjects.Title": "My Projects",
   "FeatureProjects.Label": "",

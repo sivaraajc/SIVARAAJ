@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ChatbotComponent: () => (/* binding */ ChatbotComponent)
 /* harmony export */ });
-/* harmony import */ var C_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 89204);
+/* harmony import */ var D_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 89204);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37580);
 /* harmony import */ var _services_cohere_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/cohere.service */ 8098);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ 34456);
@@ -262,7 +262,7 @@ class ChatbotComponent {
   }
   onSendMessage() {
     var _this = this;
-    return (0,C_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,D_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (_this.userMessage.trim()) {
         const response = yield _this.cohereService.chat(_this.userMessage);
         //this.botResponse=  `You said: "${this.userMessage}". This is a response from the bot.${response}`;
@@ -2085,8 +2085,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   CohereService: () => (/* binding */ CohereService)
 /* harmony export */ });
-/* harmony import */ var C_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 89204);
-/* harmony import */ var C_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncIterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncIterator.js */ 51646);
+/* harmony import */ var D_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 89204);
+/* harmony import */ var D_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncIterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncIterator.js */ 51646);
 /* harmony import */ var cohere_ai__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! cohere-ai */ 5546);
 /* harmony import */ var cohere_ai__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(cohere_ai__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37580);
@@ -2102,7 +2102,7 @@ class CohereService {
   }
   chat(message) {
     var _this = this;
-    return (0,C_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,D_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         const stream = yield _this.cohere.chatStream({
           model: "command-r-08-2024",
@@ -2123,7 +2123,7 @@ class CohereService {
         var _didIteratorError = false;
         var _iteratorError;
         try {
-          for (var _iterator = (0,C_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncIterator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(stream), _step; _iteratorAbruptCompletion = !(_step = yield _iterator.next()).done; _iteratorAbruptCompletion = false) {
+          for (var _iterator = (0,D_SIVA_SIVARAAJ_node_modules_babel_runtime_helpers_esm_asyncIterator_js__WEBPACK_IMPORTED_MODULE_1__["default"])(stream), _step; _iteratorAbruptCompletion = !(_step = yield _iterator.next()).done; _iteratorAbruptCompletion = false) {
             const chat = _step.value;
             {
               if (chat.eventType === "text-generation") {
