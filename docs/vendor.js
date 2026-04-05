@@ -988,7 +988,7 @@ const fromWebToken = init => (/*#__PURE__*/function () {
     if (!roleAssumerWithWebIdentity) {
       const {
         getDefaultRoleAssumerWithWebIdentity
-      } = yield Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_aws-crypto_sha256-browser_build_module_index_js-node_modules_aws-sdk_cor-c12008"), __webpack_require__.e("default-node_modules_aws-sdk_nested-clients_dist-es_submodules_sts_STSClient_js-node_modules_-0ade32"), __webpack_require__.e("node_modules_aws-sdk_nested-clients_dist-es_submodules_sts_index_js")]).then(__webpack_require__.bind(__webpack_require__, /*! @aws-sdk/nested-clients/sts */ 59957));
+      } = yield Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_aws-crypto_sha256-browser_build_module_index_js-node_modules_aws-sdk_cor-c12008"), __webpack_require__.e("default-node_modules_aws-sdk_nested-clients_dist-es_submodules_sts_auth_httpAuthSchemeProvide-45d93d"), __webpack_require__.e("node_modules_aws-sdk_nested-clients_dist-es_submodules_sts_index_js")]).then(__webpack_require__.bind(__webpack_require__, /*! @aws-sdk/nested-clients/sts */ 59957));
       roleAssumerWithWebIdentity = getDefaultRoleAssumerWithWebIdentity({
         ...init.clientConfig,
         credentialProviderLogger: init.logger,
@@ -1096,7 +1096,7 @@ const fromTemporaryCredentials = (options, credentialDefaultProvider, regionProv
     const {
       AssumeRoleCommand,
       STSClient
-    } = yield Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_aws-crypto_sha256-browser_build_module_index_js-node_modules_aws-sdk_cor-c12008"), __webpack_require__.e("default-node_modules_aws-sdk_nested-clients_dist-es_submodules_sts_STSClient_js-node_modules_-0ade32"), __webpack_require__.e("node_modules_aws-sdk_credential-providers_dist-es_loadSts_js")]).then(__webpack_require__.bind(__webpack_require__, /*! ./loadSts */ 85332));
+    } = yield Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_aws-crypto_sha256-browser_build_module_index_js-node_modules_aws-sdk_cor-c12008"), __webpack_require__.e("default-node_modules_aws-sdk_nested-clients_dist-es_submodules_sts_auth_httpAuthSchemeProvide-45d93d"), __webpack_require__.e("node_modules_aws-sdk_credential-providers_dist-es_loadSts_js")]).then(__webpack_require__.bind(__webpack_require__, /*! ./loadSts */ 85332));
     if (!stsClient) {
       const defaultCredentialsOrError = typeof credentialDefaultProvider === "function" ? credentialDefaultProvider() : undefined;
       const credentialSources = [options.masterCredentials, options.clientConfig?.credentials, void callerClientConfig?.credentials, callerClientConfig?.credentialDefaultProvider?.(), defaultCredentialsOrError];
