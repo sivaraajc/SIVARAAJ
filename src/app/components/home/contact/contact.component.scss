@@ -65,14 +65,27 @@
 @media (max-width: 768px){
     
     .contact{
-        height: 100vh;
+        height: auto;
+        min-height: 70vh;
+        min-height: 70dvh;
         padding: 0 !important;
         margin: 0 auto !important;
-        display: table;
+        display: block;
 
         .container{
-            display: table-cell;
-            vertical-align: middle;
+            display: block;
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+
+        .contact-title{
+            white-space: normal;
+            font-size: clamp(36px, 10vw, 60px);
+            width: 100%;
+        }
+
+        .contact-pre-title{
+            white-space: normal;
         }
     }
 }

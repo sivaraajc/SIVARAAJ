@@ -114,6 +114,35 @@
 }
 
 @media (max-width: 768px){
+    .archive {
+        padding-top: 100px;
+        padding-bottom: 120px;
+
+        .archive-title h1 {
+            font-size: clamp(40px, 12vw, 80px);
+        }
+
+        .archive-table-container {
+            margin: 40px 0;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+
+            table {
+                min-width: 320px;
+            }
+
+            thead th,
+            tbody td {
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+
+            .proyect-title {
+                font-size: 16px;
+            }
+        }
+    }
+
     .proyect-company, .proyect-skills, .hide-on-mobile{
         display: none;
     }

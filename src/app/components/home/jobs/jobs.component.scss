@@ -117,6 +117,11 @@
     .jobs {
         .job-description{
             padding: 0px;
+            font-size: 16px;
+        }
+
+        .title-tab-content {
+            font-size: 18px;
         }
     }
     ::ng-deep .jobs-tabs{
@@ -127,9 +132,20 @@
         }
 
         ul {
-            display: block;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
             width: 100% !important;
-            margin-bottom: 50px;
+            margin-bottom: 32px;
+            -webkit-overflow-scrolling: touch;
+
+            li {
+                flex: 0 0 auto;
+            }
+
+            a {
+                white-space: nowrap;
+            }
         }
     }
 }

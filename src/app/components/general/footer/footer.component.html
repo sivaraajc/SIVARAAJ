@@ -19,6 +19,24 @@
         </div>
     </div>
 
+    <ul class="footer-mobile-bar d-md-none">
+        <li>
+            <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
+                href="https://github.com/sivaraajc" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li>
+            <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")'
+                href="https://www.linkedin.com/in/sivaraaj-c" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li>
+            <a href="mailto:sivaraaj6997@gmail.com">sivaraaj6997&#64;gmail.com</a>
+        </li>
+    </ul>
+
     <div class="footer-credits text-center">
         <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "click")'
             href="https://github.com/sivaraajc" target="_blank" rel="nofollow noopener noreferrer">

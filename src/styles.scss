@@ -1,5 +1,10 @@
 @import "./variables.scss";
 
+html {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0;
   width: 100%;
@@ -154,12 +159,33 @@ a {
   }
 }
 
-@media (max-width: 768em) {
+@media (max-width: 768px) {
+  .section-box {
+    padding: 72px 0;
+  }
+
   .section-title {
     font-size: 24px;
+    white-space: normal;
+    flex-wrap: wrap;
+
+    &:after {
+      width: 120px;
+      min-width: 60px;
+      flex: 1;
+      max-width: 200px;
+    }
   }
+
   .container {
     width: 90%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .main-btn {
+    padding: 1rem 1.25rem;
   }
 }
 

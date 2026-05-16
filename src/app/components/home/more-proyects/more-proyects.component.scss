@@ -107,3 +107,15 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .more-proyects {
+        .proyect-col {
+            padding: 8px 0;
+        }
+
+        .more-proyect-box {
+            padding: 1.5rem 1.25rem;
+        }
+    }
+}

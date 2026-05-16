@@ -61,6 +61,31 @@ footer{
             color: $LightSlate;
         }
     }
+    .footer-mobile-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px 24px;
+        list-style: none;
+        padding: 0 16px 24px;
+        margin: 0;
+
+        a {
+            color: $LightSlate;
+            font-family: $CodeFont;
+            font-size: 13px;
+
+            &:hover {
+                color: $Green;
+            }
+        }
+
+        i {
+            font-size: 22px;
+        }
+    }
+
     .footer-credits{
         font-family: $CodeFont;
         font-size: 12px;
@@ -85,6 +110,16 @@ footer{
                 text-decoration: none;
                 color: $Green;
             }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        .footer-credits {
+            position: relative;
+            margin-top: 0;
+            padding: 0 16px 32px;
         }
     }
 }

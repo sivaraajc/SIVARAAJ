@@ -116,8 +116,11 @@
 }
 
 @media (max-width: 768px) {
-    .owl-carousel-o{
+    .owl-carousel-o,
+    .img-container {
         display: none;
+        width: 100%;
+        max-width: 100%;
     }
     .proyects {
         .proyect-container {

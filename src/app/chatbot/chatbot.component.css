@@ -38,19 +38,17 @@
   .main {
     background-color: rgba(255, 255, 255, 0.04);
     aspect-ratio: 13/16;
-    width: 400px;
+    width: min(400px, calc(100vw - 24px));
+    max-height: calc(100dvh - 24px);
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 30px;
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     overflow: hidden;
-    transition: transform 1s ease, width 1s ease;
-  }
-  .main:hover {
-    width: 410px;
+    transition: transform 1s ease;
   }
   
   .header {
@@ -120,13 +118,11 @@
     border: 1px solid rgba(255, 255, 255, 0.6);
     background: none;
     padding: 8px 10px;
-    width: 65%;
+    width: calc(100% - 56px);
+    max-width: 75%;
     outline: none;
     color: #fff;
-    transition: transform 1s ease, width 1s ease;
-  }
-  .text-box:hover {
-    width: 75%;
+    font-size: 16px;
   }
   
   .send-ico {

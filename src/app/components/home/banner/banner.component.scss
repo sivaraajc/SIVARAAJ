@@ -57,5 +57,34 @@
     }    
 }
 
+@media (max-width: 768px) {
+    .banner {
+        min-height: auto;
+        padding-bottom: 48px;
 
+        .container {
+            display: block;
+            height: auto;
+            min-height: calc(100vh - 70px);
+            min-height: calc(100dvh - 70px);
+        }
+
+        .section-box-banner {
+            display: block;
+            padding-top: 24px;
+
+            .content {
+                margin-top: 72px;
+            }
+
+            p {
+                max-width: 100%;
+            }
+
+            .banner-description {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
 
